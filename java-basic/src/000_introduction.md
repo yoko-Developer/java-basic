@@ -1,0 +1,3 @@
+# はじめに
+
+![](./img/otameshi.png)
