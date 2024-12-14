@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'programing-java-basic'
-copyright = '2024, Hyunwook, Yoko'
-author = 'Hyunwook, Yoko'
+project = 'java-basic'
+copyright = '2024, Yoko'
+author = 'Yoko'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
