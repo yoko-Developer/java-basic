@@ -5,21 +5,21 @@
 
 Javaでは`System.out`というオブジェクトが用意されている。
 
-## System.outの仕組み
+## `System.out`の仕組み
 
-- System：Javaの標準クラス（`java.lang.System）。
-- System.out：Systemクラスの静的フィールドで、PrintStream型である。
+- `System`：Javaの標準クラス（`java.lang.System）
+- `System.out`：Systemクラスの静的フィールドで、`PrintStream`型である
 
 型の宣言
 ```
 public static final PrintStream out;
 ```
 
-Javaでは、System.out.println、System.out.printを使用して標準出力を行う。
+Javaでは、`System.out.println`、`System.out.print`を使用して標準出力を行う。
 
 1. println
    
-System.out.println()：指定した文字列や値を出力し、最後に改行を行う。
+`System.out.println()`：指定した文字列や値を出力し、最後に改行を行う。
 
 ソースコード
 ```
@@ -35,7 +35,7 @@ System.out.println(2);
 
 2.  print
 
-System.out.print：指定した文字列や値を出力し、最後に改行を行わない。
+`System.out.print`：指定した文字列や値を出力し、最後に改行を行わない。
 
 ソースコード
 ```
@@ -51,7 +51,7 @@ System.out.print(2);
 
 3. printf
    
-System.out.printf()：フォーマット指定子を使って出力内容をカスタマイズする。
+`System.out.printf()`：フォーマット指定子を使って出力内容をカスタマイズする。
 
 フォーマット指定子の例
 
@@ -81,8 +81,8 @@ System.out.printf("%x", 127);
 ## 標準出力エラーとの違い
 Javaにはもうひとつ似たようなオブジェクトがある。
 標準エラー出力とは、プログラムが使うデータの内エラーの出力先を意味する。
-- System.err：エラーや警告メッセージを出力するためのストリーム。
-- 動作は`System.out`と同じだが、通常は別のストリームに出力される。
+- `System.err`：エラーや警告メッセージを出力するためのストリーム
+- 動作は`System.out`と同じだが、通常は別のストリームに出力される
   
 ソースコード
 ```
