@@ -24,7 +24,7 @@ public class Main {
 
 エディタで「Run」ボタンをクリックすると、コードが実行できます。
 
-![](img/001/helloWorld.jpeg)
+![](images/helloWorld.jpeg)
 
 
 
@@ -33,7 +33,7 @@ public class Main {
 Hello World
 ```
 
-![output](img/001/output.jpeg)
+![output](images/output.jpeg)
 
 ## コードの説明
 
