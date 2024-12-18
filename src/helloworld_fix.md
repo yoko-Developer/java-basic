@@ -15,7 +15,7 @@
 public class Main {
     public static void main(String[] args) {
         // コンソールにメッセージを表示する
-        System.out.println("Hello, World!");
+        System.out.println("Hello World!");
     }
 }
 ```
@@ -47,4 +47,4 @@ Hello World
 
 - System.out.println("Hello World");
 
-  コンピュータに「Hello Wprld」と表示する命令でえす。
+  コンピュータに「Hello World」と表示する命令です。
