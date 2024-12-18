@@ -15,7 +15,7 @@
 public class Main {
     public static void main(String[] args) {
         // コンソールにメッセージを表示する
-        System.out.println("Hello, World!");
+        System.out.println("Hello World!");
     }
 }
 ```
@@ -24,7 +24,7 @@ public class Main {
 
 エディタで「Run」ボタンをクリックすると、コードが実行できます。
 
-![](img/001/helloWorld.jpeg)
+![](images/helloWorld.jpeg)
 
 
 
@@ -33,7 +33,7 @@ public class Main {
 Hello World
 ```
 
-![output](img/001/output.jpeg)
+![output](images/output.jpeg)
 
 ## コードの説明
 
@@ -47,4 +47,4 @@ Hello World
 
 - System.out.println("Hello World");
 
-  コンピュータに「Hello Wprld」と表示する命令でえす。
+  コンピュータに「Hello World」と表示する命令です。
