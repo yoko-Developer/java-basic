@@ -33,7 +33,6 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: 03. 基本文法
 
    src/03_basic_syntax/01_メイン処理
    src/03_basic_syntax/02_変数とは
@@ -46,4 +45,4 @@
    src/03_basic_syntax/09_制御文の基本_条件分岐
    src/03_basic_syntax/10_制御文の基本_繰り返し
    src/03_basic_syntax/11_配列
-   src/03_basic_syntax/12_配列ループ処理
+
