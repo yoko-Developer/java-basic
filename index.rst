@@ -3,18 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-programing-java-basic documentation
+プログラミング Java基礎 資料
 ===================================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
+この資料は、Javaプログラミングの基礎を学ぶためのガイドです。以下の章に分かれており、各章では具体的なトピックについて詳しく説明しています。
 
 .. toctree::
    :maxdepth: 1
    :caption: 00. 前置き
 
+   src/00_prepare/00_目次予定
    src/00_prepare/01_プログラミング言語とは
    src/00_prepare/02_Javaとは
    src/00_prepare/03_学習について
@@ -35,7 +33,6 @@ documentation for details.
 
 .. toctree::
    :maxdepth: 1
-   :caption: 03. 基本文法
 
    src/03_basic_syntax/01_メイン処理
    src/03_basic_syntax/02_変数とは
@@ -48,4 +45,4 @@ documentation for details.
    src/03_basic_syntax/09_制御文の基本_条件分岐
    src/03_basic_syntax/10_制御文の基本_繰り返し
    src/03_basic_syntax/11_配列
-   src/03_basic_syntax/12_配列ループ処理
+
