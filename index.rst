@@ -49,3 +49,6 @@ documentation for details.
    src/03_basic_syntax/10_制御文の基本_繰り返し
    src/03_basic_syntax/11_配列
    src/03_basic_syntax/12_配列ループ処理
+   src/03_basic_syntax/16_定数
+   src/03_basic_syntax/17_修飾子
+   src/03_basic_syntax/18_コメント
